@@ -1,166 +1,169 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 @font-face {
-	font-family: 'MonumentExtended';
-	src: url('./monumentextended-regular-webfont.woff2') format('woff2'),
-		 url('./monumentextended-regular-webfont.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'MonumentExtended';
+    src: url('./monumentextended-regular-webfont.woff2') format('woff2'),
+        url('./monumentextended-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
-*{
+* {
     margin: 0;
-    padding: 0; 
+    padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'DM Sans', sans-serif;
     color: white;
 }
 
 ::selection {
-	background-color: #b99e64;
-	color: #ffffff;
-	text-shadow: none;
+    background-color: #b99e64;
+    color: #ffffff;
+    text-shadow: none;
 }
 
 -webkit-::selection {
-	background-color: #b99e64;
-	color: #ffffff;
-	text-shadow: none;
+    background-color: #b99e64;
+    color: #ffffff;
+    text-shadow: none;
 }
 
 ::-moz-selection {
-	background-color: #b99e64;
-	color: #ffffff;
-	text-shadow: none;
+    background-color: #b99e64;
+    color: #ffffff;
+    text-shadow: none;
 }
 
 ::-webkit-scrollbar {
-	width: 5px;
-	height: 5px;
+    width: 5px;
+    height: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
-	cursor: pointer;
-	background: #b99e64;
+    cursor: pointer;
+    background: #b99e64;
 }
 
-.container{
+.container {
     max-width: 85%;
     margin: 0 auto;
 }
 
-.navbar li a{
+.navbar li a {
     color: #FFA969;
 }
 
-.navbar li a:hover{
-    color: rgba(255,255,255,0.9);
+.navbar li a:hover {
+    color: rgba(255, 255, 255, 0.9);
     text-decoration: none;
 }
 
-.navbar-brand{
+.navbar-brand {
     color: #FFA969;
 }
-.navbar-brand:hover{
-    color: rgba(255,255,255,0.9);
+
+.navbar-brand:hover {
+    color: rgba(255, 255, 255, 0.9);
 }
 
-.navbar-nav{
+.navbar-nav {
     margin-left: 20px;
 }
 
-.section{
+.section {
     background: #000;
     padding: 100px 0;
 }
 
-.sec1{
+.sec1 {
     background: url(./images/cat-bg.jpeg) no-repeat;
     background-repeat: no-repeat;
     background-position: top right;
-    background-size:100% 100%;;
+    background-size: 100% 100%;
+    ;
 }
 
-.sec2{
+.sec2 {
     background: #292039;
 }
 
-.sec3{
+.sec3 {
     background: #292039;
 }
 
-.about-heading{
+.about-heading {
     font-size: 100px;
     color: #f2b89a;
 }
 
-.about-title{
+.about-title {
     font-size: 25px;
     font-weight: 800;
 }
 
-.about-head{
+.about-head {
     color: #f2b89a;
     font-size: 20px;
 }
 
-.about-desc{
+.about-desc {
     font-size: 15px;
 }
 
 /* Roadmap */
 
-.roadmap-item{
+.roadmap-item {
     margin: 50px 0;
 }
 
-.roadmap-title{
+.roadmap-title {
     font-size: 30px;
     font-family: 'MonumentExtended', sans-serif;
 }
 
-.roadmap-head{
+.roadmap-head {
     font-size: 17px;
     font-weight: 800;
     line-height: 30px;
 }
 
-.roadmap-desc{
+.roadmap-desc {
     font-size: 20px;
     margin: -10px 0 0 0;
     font-weight: 800;
 }
 
-.desc1{
+.desc1 {
     color: #249fb4;
 }
 
-.desc2{
+.desc2 {
     color: rgb(209, 44, 93);
 }
 
-.desc3{
+.desc3 {
     color: rgb(42, 182, 77);
 }
 
-.roadmap-point{
+.roadmap-point {
     font-size: 15px;
     color: #FFA969;
 }
 
-.font{
+.font {
     font-family: 'MonumentExtended', sans-serif;
 }
 
-.phase{
+.phase {
     font-family: 'MonumentExtended', sans-serif;
     font-size: 15px;
 }
 
-.btn-top{
+.btn-top {
     padding: 0.5rem 0;
     border-radius: 40px;
     font-weight: 500;
@@ -171,13 +174,39 @@ body{
     background: #C14F14;
 }
 
+.menu-a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-div{
+    width: 80%;
+}
+
 @media only screen and (max-width: 667px) {
-    .sec1{
+    .sec1 {
         background-size: cover;
         background-position: left;
-    }  
+    }
 
-    .navbar-nav{
+    .navbar-nav {
         margin-left: 0;
-    }  
-  }
+    }
+
+    .roadmap-desc {
+        margin: -10px 0 20px 0;
+    }
+
+    .about-title {
+        margin-top: 100px !important;
+    }
+
+    .menu-a{
+        font-size: 15px;
+    }
+
+    .main-div{
+        width: 100%;
+    }
+}
