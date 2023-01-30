@@ -179,6 +179,10 @@ body {
     color: #fff;
     text-decoration: none;
 }
+.menu-a:hover {
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+}
 
 .main-div{
     width: 80%;
