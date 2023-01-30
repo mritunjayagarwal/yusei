@@ -11,6 +11,7 @@
 
 .section{
     background: #000;
+    overflow: auto;
 }
 
 .sec1{
