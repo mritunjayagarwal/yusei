@@ -116,18 +116,18 @@ body{
 }
 
 .roadmap-title{
-    font-size: 48px;
+    font-size: 35px;
     font-family: 'MonumentExtended', sans-serif;
 }
 
 .roadmap-head{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
     line-height: 30px;
 }
 
 .roadmap-desc{
-    font-size: 30px;
+    font-size: 25px;
     margin: 15px 0;
     font-weight: 800;
 }
@@ -145,7 +145,7 @@ body{
 }
 
 .roadmap-point{
-    font-size: 25px;
+    font-size: 20px;
     color: #FFA969;
 }
 
