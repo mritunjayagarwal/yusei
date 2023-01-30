@@ -53,6 +53,11 @@ body {
     margin: 0 auto;
 }
 
+.main-head {
+    color: #FFA969;
+    font-size: 25px;
+}
+
 .navbar li a {
     color: #FFA969;
 }
@@ -225,7 +230,12 @@ body {
         width: 100%;
     }
 
-    .black{
-        background: rgba(0,0,0,0.6);
+    .black {
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    .main-head{
+        font-size: 23px;
+        margin-bottom: 20px;
     }
 }
