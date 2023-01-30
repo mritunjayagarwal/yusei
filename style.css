@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    color: white;
+}
+
 .container{
     max-width: 95%;
     margin: 0 auto;
@@ -22,5 +26,60 @@
 }
 
 .sec2{
-    background: #121212;
+    background: #292039;
+}
+
+.sec3{
+    background: #292039;
+}
+
+.about-heading{
+    font-size: 54px;
+    color: #f2b89a;
+}
+
+.about-title{
+    font-size: 35px;;
+}
+
+.about-head{
+    color: #f2b89a;
+}
+
+.about-desc{
+    font-size: 20px;
+}
+
+/* Roadmap */
+
+.roadmap-item{
+    margin: 50px 0;
+}
+
+.roadmap-title{
+    font-size: 48px;
+}
+
+.roadmap-head{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.roadmap-desc{
+    font-size: 35px;
+    margin: 15px 0;
+    font-weight: 500;
+}
+
+.desc1{
+    color: #249fb4;
+}
+
+.desc2{
+    color: rgb(209, 44, 93);
+}
+
+.desc3{
+    color: rgb(42, 182, 77);
 }
