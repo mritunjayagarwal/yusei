@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    max-width: 95%;
+    max-width: 90%;
     margin: 0 auto;
 }
 
@@ -98,6 +98,10 @@ body{
 
 .desc3{
     color: rgb(42, 182, 77);
+}
+
+.roadmap-point{
+    font-size: 25px;
 }
 
 .btn-top{
