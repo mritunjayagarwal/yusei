@@ -205,10 +205,10 @@ body {
 }
 
 @media only screen and (max-width: 667px) {
-    /* .sec1 {
+    .sec1 {
         background-size: cover;
         background-position: left;
-    } */
+    }
 
     .navbar-nav {
         margin-left: 0;
@@ -231,7 +231,7 @@ body {
     }
 
     .black {
-        background: rgba(0, 0, 0, 0.6);
+        background: rgba(0, 0, 0, 0);
     }
 
     .main-head{
