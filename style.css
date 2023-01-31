@@ -220,6 +220,15 @@ body {
     right: -0px;
 }
 
+.ellipse-3{
+    display: none;
+    height: 40%;
+    width: auto;
+    position: absolute;
+    left: 0px;
+    bottom: -700px;
+}
+
 @media only screen and (max-width: 667px) {
     .sec1 {
         background-size: cover;
@@ -256,11 +265,11 @@ body {
     }
 
     .ellipse-1 {
-        height: 50%;
-        width: auto;
-        position: absolute;
-        left: -200px;
-        bottom: -800px;
+        display: none;
+    }
+
+    .ellipse-3{
+        display: block;
     }
     
     .ellipse-2 {
