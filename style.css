@@ -204,6 +204,22 @@ body {
     width: 80%;
 }
 
+.ellipse-1 {
+    height: 80%;
+    width: auto;
+    position: absolute;
+    left: -200px;
+    bottom: -200px;
+}
+
+.ellipse-2 {
+    height: 40%;
+    width: auto;
+    position: absolute;
+    top: 50px;
+    right: -0px;
+}
+
 @media only screen and (max-width: 667px) {
     .sec1 {
         background-size: cover;
@@ -234,8 +250,24 @@ body {
         background: rgba(0, 0, 0, 0);
     }
 
-    .main-head{
+    .main-head {
         font-size: 23px;
         margin-bottom: 20px;
+    }
+
+    .ellipse-1 {
+        height: 50%;
+        width: auto;
+        position: absolute;
+        left: -200px;
+        bottom: -800px;
+    }
+    
+    .ellipse-2 {
+        height: 40%;
+        width: auto;
+        position: absolute;
+        top: 50px;
+        right: -0px;
     }
 }
