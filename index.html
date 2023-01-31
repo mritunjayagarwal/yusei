@@ -40,7 +40,7 @@
               Chart
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item item-hide">
             <a href="#" class="px-3 pt-4 btn-link">
               /
             </a>
@@ -272,15 +272,6 @@
           'tooltips': ['section1', 'section2', 'section3', 'section4']
         },
       });
-    });
-
-
-    $(window).scroll(function () {
-      if ($(window).scrollTop() >= 50) {
-        $('.navigation').css('background', '#121212');
-      } else {
-        $('.navigation').css('background', 'transparent');
-      }
     });
   </script>
 </body>

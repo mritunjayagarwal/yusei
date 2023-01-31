@@ -279,4 +279,17 @@ body {
         top: 50px;
         right: -0px;
     }
+
+
+    .nav-item{
+        padding: 20px 0;
+    }
+
+    .item-hide{
+        display: none;
+    }
+
+    .navbar-collapse{
+        background: #292039;
+    }
 }
